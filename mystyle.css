@@ -80,33 +80,49 @@ footer.bg-dark {
     height: 300px; 
 }
 
-.footer-content {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent to blend with the page */
+/* Existing styles... */
+
+@media (max-width: 768px) {
+    .banner-image {
+        height: 30vh;
+    }
+
+    .navbar-dark.bg-dark {
+        font-size: 0.8rem;
+    }
+
+    .hero {
+        height: 30vh;
+        font-size: 0.8rem;
+    }
+
+    .footer-content {
+        font-size: 0.8rem;
+    }
+
+    .video-container iframe {
+        width: 90%;
+        height: auto;
+    }
 }
 
-.opening-hours {
-    margin-bottom: 0; /* Ensure no extra space below text */
-}
+/* Additional media queries for even smaller screens if needed */
+@media (max-width: 480px) {
+    .banner-image {
+        height: 20vh;
+    }
 
-.footer-image-container {
-    position: relative;
-}
+    .hero {
+        height: 20vh;
+        font-size: 0.7rem;
+    }
 
-.footer-image-container img {
-    width: 100%;
-    height: auto;
-}
+    .footer-content {
+        font-size: 0.7rem;
+    }
 
-.instagram-icon {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-
-.video-container {
-    margin-bottom: 60px; /* Ensure space for fixed footer */
+    .video-container iframe {
+        width: 85%;
+        height: auto;
+    }
 }
