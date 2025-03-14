@@ -80,3 +80,33 @@ footer.bg-dark {
     height: 300px; 
 }
 
+.footer-content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent to blend with the page */
+}
+
+.opening-hours {
+    margin-bottom: 0; /* Ensure no extra space below text */
+}
+
+.footer-image-container {
+    position: relative;
+}
+
+.footer-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.instagram-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.video-container {
+    margin-bottom: 60px; /* Ensure space for fixed footer */
+}
