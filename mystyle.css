@@ -84,4 +84,10 @@ footer.bg-dark {
     .navbar-toggler-icon {
         background-color: black;
     }
+
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
